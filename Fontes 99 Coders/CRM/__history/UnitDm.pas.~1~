@@ -1,0 +1,39 @@
+unit UnitDm;
+
+{ Copyright 2024 / 2025 D2Bridge Framework by Talis Jonatas Gomes }
+
+interface
+
+uses
+  System.SysUtils, System.Classes;
+
+type
+  TDataModule1 = class(TDataModule)
+  private
+    { Private declarations }
+  public
+    class procedure CreateInstance;
+  end;
+
+function DataModule1:TDataModule1;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+Uses
+  D2Bridge.Instance, CRMWebApp;
+
+{$R *.dfm}
+
+class procedure TDataModule1.CreateInstance;
+begin
+ D2BridgeInstance.CreateInstance(self);
+end;
+
+function DataModule1:TDataModule1;
+begin
+ result:= TDataModule1(D2BridgeInstance.GetInstance(TDataModule1));
+end;
+
+end.

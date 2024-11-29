@@ -1,0 +1,21 @@
+object Dm: TDm
+  Height = 480
+  Width = 640
+  object Conn: TFDConnection
+    Params.Strings = (
+      
+        'Database=D:\99Coders\Posts\417 - Programa'#231#227'o web com Delphi\Font' +
+        'es\DB\CLIENTES.FDB'
+      'User_Name=SYSDBA'
+      'Password=masterkey'
+      'DriverID=FB')
+    LoginPrompt = False
+    Left = 136
+    Top = 56
+  end
+  object FDPhysFBDriverLink1: TFDPhysFBDriverLink
+    VendorLib = 'C:\Program Files (x86)\Firebird\Firebird_3_0\fbclient.dll'
+    Left = 304
+    Top = 56
+  end
+end

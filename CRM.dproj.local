@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/11/25 06:43:01.000.712,C:\Delphi 11\Projects\CRM\Unit1.pas=C:\Delphi 11\Projects\CRM\UnitPrincipal.pas</Transaction>
+    <Transaction>2024/11/25 06:43:01.000.712,C:\Delphi 11\Projects\CRM\Unit1.dfm=C:\Delphi 11\Projects\CRM\UnitPrincipal.dfm</Transaction>
+    <Transaction>2024/11/26 20:04:33.000.796,=C:\Delphi 11\Projects\CRM\Unit1.pas</Transaction>
+    <Transaction>2024/11/26 20:07:01.000.836,C:\Delphi 11\Projects\CRM\UnitDm.pas=C:\Delphi 11\Projects\CRM\Unit1.pas</Transaction>
+    <Transaction>2024/11/26 20:07:01.000.836,C:\Delphi 11\Projects\CRM\UnitDm.dfm=C:\Delphi 11\Projects\CRM\Unit1.dfm</Transaction>
+    <Transaction>2024/11/26 20:15:39.000.518,=C:\Delphi 11\Projects\CRM\Unit1.pas</Transaction>
+    <Transaction>2024/11/26 20:22:47.000.022,C:\Delphi 11\Projects\CRM\UnitClienteCons.pas=C:\Delphi 11\Projects\CRM\Unit1.pas</Transaction>
+    <Transaction>2024/11/26 20:22:47.000.022,C:\Delphi 11\Projects\CRM\UnitClienteCons.dfm=C:\Delphi 11\Projects\CRM\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

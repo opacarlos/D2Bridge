@@ -1,0 +1,89 @@
+object FrmPrincipal: TFrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'FrmPrincipal'
+  ClientHeight = 299
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 8
+    Width = 122
+    Height = 25
+    Caption = 'Hello World'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 39
+    Width = 294
+    Height = 18
+    Caption = 'This app is created with D2Bridge Framework'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 8
+    Top = 65
+    Width = 115
+    Height = 13
+    Caption = 'by Talis Jonatas  Gomes'
+  end
+  object Label4: TLabel
+    Left = 8
+    Top = 96
+    Width = 104
+    Height = 25
+    Caption = '99 Coders'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object MainMenu1: TMainMenu
+    Left = 176
+    Top = 152
+    object Module11: TMenuItem
+      Caption = 'Dashboard'
+    end
+    object AppModule21: TMenuItem
+      Caption = 'Cadastros'
+      object Clientes1: TMenuItem
+        Caption = 'Clientes'
+      end
+      object Contatos1: TMenuItem
+        Caption = 'Contatos'
+      end
+    end
+    object CoreModules1: TMenuItem
+      Caption = 'Relat'#243'rios'
+      object CoreModule11: TMenuItem
+        Caption = 'Clientes'
+      end
+      object CoreModule21: TMenuItem
+        Caption = 'Contatos Realizados'
+      end
+    end
+    object Desconectar1: TMenuItem
+      Caption = 'Desconectar'
+    end
+  end
+end

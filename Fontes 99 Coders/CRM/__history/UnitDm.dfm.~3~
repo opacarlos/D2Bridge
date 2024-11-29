@@ -1,0 +1,13 @@
+object Dm: TDm
+  Height = 480
+  Width = 640
+  object FDConnection1: TFDConnection
+    LoginPrompt = False
+    Left = 136
+    Top = 56
+  end
+  object FDPhysFBDriverLink1: TFDPhysFBDriverLink
+    Left = 304
+    Top = 56
+  end
+end

@@ -1,0 +1,45 @@
+unit UnitDm;
+
+{ Copyright 2024 / 2025 D2Bridge Framework by Talis Jonatas Gomes }
+
+interface
+
+uses
+  System.SysUtils, System.Classes, FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Error, FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def,
+  FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.VCLUI.Wait,
+  FireDAC.Phys.FBDef, FireDAC.Phys.IBBase, FireDAC.Phys.FB, Data.DB,
+  FireDAC.Comp.Client;
+
+type
+  TDm = class(TDataModule)
+    Conn: TFDConnection;
+    FDPhysFBDriverLink1: TFDPhysFBDriverLink;
+  private
+    { Private declarations }
+  public
+    class procedure CreateInstance;
+  end;
+
+function Dm:TDm;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+Uses
+  D2Bridge.Instance, CRMWebApp;
+
+{$R *.dfm}
+
+class procedure TDm.CreateInstance;
+begin
+ D2BridgeInstance.CreateInstance(self);
+end;
+
+function Dm:TDm;
+begin
+ result:= TDm(D2BridgeInstance.GetInstance(TDm));
+end;
+
+end.
